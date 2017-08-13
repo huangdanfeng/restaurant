@@ -1,0 +1,27 @@
+border-one(box,posite,onecolor)
+  position relative
+  &:{box}
+    position absolute
+    left 0
+    {posite} 0
+    content ''
+    width 100%
+    border-bottom 1px solid onecolor
+
+border-vertical(box,posite,onecolor)
+  &:{box}
+    content ''
+    height 50px
+    border-right 1px solid onecolor
+
+border-none(box)
+  &:{box}
+    display: none
+
+bg-image(spanurl)
+  background-image: url(spanurl + '@2x.png')
+  background-repeat: no-repeat
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3)
+    background-image: url(spanurl + '@3x.png')
+    background-repeat: no-repeat
+
