@@ -31,7 +31,7 @@
       <i class="icon-keyboard_arrow_right"></i>
     </div>
     <div class="background">
-      <image width="100%" height="100%" :src="seller.avatar" alt="加载失败"></image>
+      <img width="100%" height="100%" :src="seller.avatar" alt="加载失败"></img>
     </div>
     <!--弹框显示详情-->
     <div class="detailShow" transition="expand" v-show="shows">

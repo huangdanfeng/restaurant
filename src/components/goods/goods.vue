@@ -19,7 +19,7 @@
           <h1 class="title">{{item.name}}</h1>
           <ul>
             <li v-for="items in item.foods" class="foods-item border-one">
-              <div class="food-icon"><image width="57px" height="57px" :src="items.icon"></image></div>
+              <div class="food-icon"><img width="57px" height="57px" :src="items.icon"></img></div>
               <div class="food-content">
                 <h1 class="name">{{items.name}}</h1>
                 <p v-show="items.description" class="desc">{{items.description}}</p>
