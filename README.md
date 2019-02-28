@@ -1,27 +1,27 @@
-# meal
+# restaurant
+  **<font size=6>简介</font>**
+    
+    模仿饿了么vue1.0版本
+    
+    <a href="https://cn.vuejs.org/" target="_blank">官方入门教程</a>
 
-> vue sell 1.0
+  **<font size=6>安装</font>**
+  
+  下载项目后，进入项目文件夹所在的终端
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+```javascript
+  npm install
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+  
+  **<font size=6>启动</font>**
+
+  ```javascript
+    npm run dev
+  ```
+  
+  最后浏览器打开http://localhost:8080
+    
+  <img src="/image/localhost.png"  width="550" height="400">
+
+
